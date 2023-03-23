@@ -1,0 +1,49 @@
+body, .p-menuitem-icon {
+    padding: 0;
+    margin: 0;
+}
+.p-menuitem-link {
+    font-size: .5rem;
+    flex-direction: column!important;
+    flex-grow: 1;
+    gap: .3rem;
+    justify-content: center;
+    border-top-right-radius: 0!important;
+    border-top-left-radius: 0!important;
+}
+span.p-menuitem-icon {
+    margin: 0!important;
+}
+.p-tabmenuitem {
+    flex-grow: 1;
+}
+.recipe-card{
+    width: 100%;
+    max-width: min(350px, calc(100vw - 32px));
+    height: 350px;
+}
+.recipe-card .p-card-title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.recipe-card-image {
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+.recipe-speed-dial .p-speeddial {
+    right: .3rem;
+    top: .3rem;
+}
+.recipe-speed-dial .p-speeddial-button.p-button.p-button-icon-only {
+    height: 3rem;
+    width: 3rem;
+    padding: 0;
+}
+.recipe-speed-dial .p-speeddial-button.p-button.p-button-icon-only .p-button-icon{
+    font-size: 1rem;
+}
+a {
+    text-decoration: none;
+}

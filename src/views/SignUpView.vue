@@ -4,6 +4,9 @@
       <template #title>
       </template>
       <template #content>
+        <div class="p-3 m-3 place">
+          <img src="/logo.png" class="w-full" />
+        </div>
         <div class="flex flex-column gap-2">
           <div class="p-inputgroup flex-column">
             <div class="p-inputgroup">
